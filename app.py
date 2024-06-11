@@ -6,7 +6,7 @@ import streamlit as st
 # Load the Zomato data
 @st.cache
 def load_data():
-    dataframe = pd.read_csv("Zomato data .csv")
+    dataframe = pd.read_csv("Zomato data.csv")
     return dataframe
 
 dataframe = load_data()
